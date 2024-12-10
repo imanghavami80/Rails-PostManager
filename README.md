@@ -55,12 +55,12 @@ A Ruby on Rails application designed for managing posts and categories. This pro
 2. **Post Pages**:
    - Index: List all posts with their titles, descriptions, liked status, and associated category.
    - Show: Detailed view of a specific post.
-   - Create/Edit: Forms for adding or updating posts.
+   - Create/Edit/Delete: Forms for adding, updating or deleting posts.
 
 3. **Category Pages**:
    - Index: List all categories with the number of associated posts.
    - Show: Detailed view of a category with a list of associated posts.
-   - Create/Edit: Forms for adding or updating categories.
+   - Create/Edit/Delete: Forms for adding, updating or deleting categories.
 
 4. **About Page**:
    - Overview of the project and its purpose.
