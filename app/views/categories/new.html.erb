@@ -1,0 +1,15 @@
+<%= link_to('Back to List', categories_path, class: 'back-link') %>
+
+<div class="model new">
+  <h2>Create Category</h2>
+
+  <%= form_for(@category) do |f| %>
+
+    <%= render(partial: "form", locals: {f: f}) %>
+
+    <div class="form-buttons">
+      <%= f.submit("Create Category", class: 'action create') %>
+    </div>
+
+  <% end %>
+</div>

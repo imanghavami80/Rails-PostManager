@@ -1,0 +1,15 @@
+<%= link_to('Back to List', posts_path, class: 'back-link') %>
+
+<div class="model new">
+  <h2>Create Post</h2>
+
+  <%= form_for(@post) do |f| %>
+
+    <%= render(partial: "form", locals: {f: f}) %>
+
+    <div class="form-buttons">
+      <%= f.submit("Create Post", class: 'action create') %>
+    </div>
+
+  <% end %>
+</div>
